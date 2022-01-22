@@ -16,6 +16,10 @@ ul, ol {
 li {
 	list-style: none;
 }
+.active_menu_link {
+	text-shadow: 5px 2px 30px rgba(223, 96, 250, 1);
+	text-emphasis: uppercase;
+}
 
 /* http://htmlbook.ru/css/box-sizing */
 * {
@@ -57,6 +61,7 @@ header nav a {
 	width: 240px;
 	background: #000;
 	padding: 25px 0;
+	transition: .3s ease-in-out
 }
 
 header nav a:hover {
@@ -70,6 +75,11 @@ header nav a:hover {
 
 
 /* main styles START */
+
+main {
+	overflow: hidden;
+}
+
 .product_item {
 	display: block;
 	float: left;
@@ -86,3 +96,52 @@ header nav a:hover {
 	width: 100%;
 }
 /* main styles END */
+footer {
+	background: #424242
+	padding:50px 0;
+}
+footer p {
+	width: 800px;
+	margin: 0 auto;
+	text-emphasis: center;
+	color: #ddd; 
+}
+footer p:last-child {
+	margin-top: 20px;
+}
+footer p span {
+	text-transform: uppercase;
+	font-weight: 800;
+}
+
+
+.cat_item  {
+  width: 300px; 
+  height:300px;
+  float: left;
+  text-align: center;
+}
+.cat_item img {
+	width: 35%;
+	display: block;
+	margin: 0 auto;
+}
+.cat_item p {
+	font-size: 11px;
+	width: 240px;
+	margin: 0 auto 20px auto;
+}
+.cat_item a {
+	display: block;
+	background: #000;
+	color:#fff;
+	width: 240px;
+	margin:0 auto;
+	padding: 10px 0;
+	background-origin: 25px;
+	border:1px solid red;
+}
+#categoryes_page h2 {
+	text-emphasis: none;
+	font-size: 
+}
